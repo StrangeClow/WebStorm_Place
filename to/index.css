@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+    font-family: "microsoft yahei", "微软雅黑";
+}
+* {
+    margin:0;
+    padding:0;
+}
+.container {
+    position: relative;
+    top:0;
+    width: 100%;
+    height: auto;
+}
+.con {
+    position: relative;
+    margin: 1rem;
+    top:0;
+}
+.con-main {
+    width: 100%;
+    position: relative;
+}
+.con-img {
+width: 100%;
+    position: relative;
+}
+.con-img img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.con-detail {
+    position: relative;
+    top:0;
+}
+.title {
+    background: #000000;
+    opacity: 0.5;
+    line-height: 2.1rem;
+    height: 4.2rem;
+    position: absolute;
+    z-index: 1;
+    top:-4.5rem;
+    width: 100%;
+}
+.title-one {
+    z-index: 5;
+    position: absolute;
+    top:-4.5rem;
+}
+  .title-two {
+    z-index: 5;
+    position: absolute;
+      top:-3rem;
+}
+.title-one span, .title-two span {
+    color: #FF0000;
+}
+.price-time {
+    position: relative;
+    height: 4rem;
+    line-height: 4rem;
+    background: rgba(20,188,220,0.99);
+}
+.price-time .price {
+    float: left;
+}
+.price-time .time {
+    float: right;
+}
+.price-time span {
+    font-size: 1.3rem;
+    color: #fff;
+}
